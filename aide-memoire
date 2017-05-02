@@ -1,0 +1,5 @@
+git add NAME
+git commit
+git push / git pull
+git status
+
