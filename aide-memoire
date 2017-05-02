@@ -3,3 +3,8 @@ git commit
 git push / git pull
 git status
 
+vim
+i pour aller en mode insert
+esc pour mode normal
+:q pour quitter, :q! si je ne sais pas que ce j'ai fait et j'ai tout perdu
+:wq pour sauvegarder/quitter
