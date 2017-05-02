@@ -1,0 +1,5 @@
+source("http://bioconductor.org/biocLite.R")
+biocLite("rhdf5")
+biocLite("biomaRt")
+install.packages("devtools")
+devtools::install_github("pachterlab/sleuth")
