@@ -1,0 +1,5 @@
+postscript("EngineMPG.ps",width=7,height=5)
+plot(mtcars$disp, mtcars$mpg, xlab="Engine displacement", ylab="Miles per gallon", main="MPG of engines")
+fit.engines <- lowess(mtcars$disp, mtcars$mpg)
+lines(fit.engines)
+dev.off()
